@@ -23,7 +23,7 @@
               figure
                 img(src="@/assets/template/tema-3-3.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-9.align-self-center
-              p En otros términos, el alcance de la implementación de los controles, está directamente relacionado con el análisis de riesgos realizados a los activos de información, que busca mitigar dichos riesgos y evitar cualquier nivel de impacto negativo
+              p En otros términos, el alcance de la implementación de los controles, está directamente relacionado con el análisis de riesgos realizados a los activos de información, que busca mitigar dichos riesgos y evitar cualquier nivel de impacto negativo.
     p.mt-5 Diríjase al recurso que aparece a continuación; allí encontrará información amplia e importantísima para el estudio del alcance de los controles de seguridad. Información que necesita para cumplir con los objetivos de este componente formativo. #[strong ¡Adelante!] 
     figure.mb-5
       .video
@@ -40,9 +40,9 @@
                   h3.mb-1 Controles: orientaciones de la norma 
                   p.text-small Para afianzar sus conocimientos en Controles de seguridad, sugeridos por la norma, diríjase a Sistema de bibliotecas del SENA, #[a.color-naranja http://biblioteca.sena.edu.co/.] En el menú “Consulta bibliográfica” seleccione #[strong “Bases de datos”] y encuentre en #[strong “Base de datos ICONTEC”] la norma #[strong.color-naranja ISO/IEC 27001:2013, Anexo A.]  
                 .col-sm-auto
-                  a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                  a.boton.color-secundario(href="http://biblioteca.sena.edu.co/" target="_blank")
+                    span Ver
+                    i.fas.fa-link
 
 
 </template>

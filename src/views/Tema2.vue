@@ -21,7 +21,7 @@
     p.mt-5 En la siguiente tabla, conozca los objetivos de control para la determinación de estas políticas. Le sugerimos tomar nota atenta de los aspectos más importantes de este punto.
     .row.mt-5
       .col-10.offset-1
-        .titulo-sexto.color-acento-co ntenido.mb-0
+        .titulo-sexto.color-acento-contenido.mb-0
           h5.mb-0 Tabla 1
         p.text-small A5 Política para la seguridad de la información 
         .tabla-b.color-acento-contenido.mt-5
@@ -46,8 +46,8 @@
             figure
               img(src="@/assets/template/tema-2-3.svg", alt="Texto que describa la imagen").floating
           .col-9
-            p En términos de seguridad, uno de los factores más relevantes en una organización o empresa, es brindar las directrices para identificar y mantener seguros los activos de información. 
-            p.mt-4 Visualice, a continuación, los objetivos de control para la organización, de la seguridad de la información
+            p En términos de seguridad, uno de los factores más relevantes en una organización o empresa, es brindar las directrices para identificar y mantener seguros los #[strong activos de información]. 
+            p.mt-4 Visualice, a continuación, los objetivos de control para la organización, de la seguridad de la información.
         .col-12.mt-4
           .cajon.color-secundario.bg-naranja-claro.p-4
             ol.lista-ol--cuadro
@@ -153,8 +153,8 @@
               td.bg-blanco Manejo de activos
             tr.border-rojo
               th.text-center.border-rojo.bg-gris-claro A.8.3
-              td.bg-gris-claro 
-            tr.border-rojo.bg-blanco
+              td.bg-gris-claro Manejo de medios: evitar la divulgación, la modificación, el retiro o la destrucción no autorizados de información almacenada en los medios.
+            tr.border-rojo.bg-blanco 
               th.text-center.border-rojo.bg-blanco A.8.3.1
               td.bg-blanco Gestión de medios removibles
             tr.border-rojo.bg-blanco
@@ -165,7 +165,7 @@
               td.bg-blanco Transferencia de medios físicos
     Separador
     .titulo-segundo.mt-5
-      #t_2_4.h2 2.4  Objetivos de control para la gestión de activos
+      #t_2_4.h2 2.4  Controles de accesos
     .row.mt-5
       .col-8.offset-2
         .bloque-texto-a.color-primario.p-4.p-md-3.mb-5 
@@ -188,27 +188,24 @@
             figure
               img(src="@/assets/template/tema-2-17.svg", alt="Texto que describa la imagen")
           .col-9
-            p En términos de seguridad, uno de los factores más relevantes en una organización o empresa, es brindar las directrices para identificar y mantener seguros los activos de información.  
-            p.mt-4 Visualice, a continuación, los objetivos de control para la organización, de la seguridad de la información
+            p Para proteger la información, de ser accedida por personas o sistemas no autorizados, se recomienda el uso de sistemas y técnicas de criptografía, con el fin adicional de garantizar la confidencialidad e integridad de los mismos. 
+            p.mt-4 En la tabla que se presenta a continuación, usted puede encontrar los controles sugeridos por la norma.
         .col-12.mt-4
           .titulo-sexto.color-acento-contenido.mb-0
             h5.mb-0 Tabla 2
-            p.text-small A8 Gestión de activos
+            p.text-small A10 Criptografía
             .tabla-b.color-acento-contenido.mt-5
               table.border-rojo
                 caption.mt-4 Nota: Norma ISO/IEC 27001:2013 – Anexo A
                 tr.border-rojo
-                  th.text-center.border-rojo.bg-gris-claro A.8.1
-                  td.bg-gris-claro Responsabilidad por los activos: identificar los activos organizacionales y definir las responsabilidades de protección apropiadas.
+                  th.text-center.border-rojo.bg-gris-claro A.10.1
+                  td.bg-gris-claro Controles criptográficos: asegurar el uso apropiado y eficaz de la criptografía para proteger la confidencialidad, autenticidad y/o la integridad de la información.
                 tr.border-rojo.bg-blanco
-                  th.text-center.border-rojo A.8.1.1
-                  td Inventario de activos
+                  th.text-center.border-rojo A.10.1.1
+                  td Política sobre el uso de controles criptográficos
                 tr.border-rojo.bg-blanco
-                  th.text-center.border-rojo.bg-blanco A.8.1.2
-                  td.bg-blanco Propiedad de los activos
-                tr.border-rojo.bg-blanco
-                  th.text-center.border-rojo.bg-blanco A.8.1.3
-                  td.bg-blanco Uso aceptable de los activos
+                  th.text-center.border-rojo.bg-blanco A.10.1.2
+                  td.bg-blanco Gestión de llaves
       .col-4.col-lg-5
         figure
           img(src="@/assets/template/tema-2-18.svg", alt="Texto que describa la imagen").floating
@@ -221,13 +218,13 @@
           img(src="@/assets/template/tema-2-19.svg", alt="Texto que describa la imagen")
       .col-10
         p Como buenas prácticas de seguridad, se recomienda reducir los riesgos asociados por daños directos o factores que puedan afectar los activos de información o el desarrollo de las operaciones en la organización.
-        p.mt-4 Estos son los controles sugeridos para el aseguramiento físico, así como para el entorno, en donde se encuentran ubicados dichos activos
+        p.mt-4 Estos son los controles sugeridos para el aseguramiento físico, así como para el entorno, en donde se encuentran ubicados dichos activos.
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Áreas seguras" :icono="require('@/assets/template/tema-2-20.svg')")
         .row          
           .col-12.col-lg-8.pl-5.align-self-center
             .h3 Áreas seguras
-            p Prevenir el acceso físico no autorizado, el daño y la interferencia a la información y a las instalaciones de procesamiento de información
+            p Prevenir el acceso físico no autorizado, el daño y la interferencia a la información y a las instalaciones de procesamiento de información.
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
@@ -254,7 +251,7 @@
         .row
           .col-12.col-lg-8.pl-5.align-self-center
             .h3 Equipos
-            p Prevenir la pérdida, daño, robo o compromiso de activos, y la interrupción de las operaciones de la organización
+            p Prevenir la pérdida, daño, robo o compromiso de activos, y la interrupción de las operaciones de la organización.
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
@@ -298,7 +295,7 @@
                   h3.mb-1 Dominios de control, desde la norma ISO/IEC 27001:2013 
                   p.text-small Para completar y profundizar en el conocimiento de los Dominios de control, orientados por la norma ISO/IEC 27001:2013, le invitamos a visitar el Anexo_1_DominiosDeControl y estudiar las tablas de controles de los entornos de la organización, que allí se registran.  
                 .col-sm-auto
-                  a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-secundario(:href="obtenerLink('/downloads/Dominios_De_Control.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -335,25 +332,26 @@ export default {
       {
         titulo: 'Requisito del negocio para el control de acceso ',
         texto:
-          'Limitar el acceso a información y a instalaciones de procesamiento de información: <br>Política de control de acceso <br>Acceso a redes y a servicios en red',
+          'Limitar el acceso a información y a instalaciones de procesamiento de información: <ul class="lista-ul mt-3"><li><i  class="fas fa-angle-right"></i>Política de control de acceso.</li><li><i  class="fas fa-angle-right"></i>Acceso a redes y a servicios en red.</li></ul>',
+
         imagen: require('@/assets/template/tema-2-13.png'),
       },
       {
         titulo: 'Gestión de acceso de usuarios',
         texto:
-          'Asegurar el acceso de usuarios autorizados y evitar el acceso de usuarios no autorizados a sistemas y servicios: <br><br>Registro y cancelación del registro de usuarios.<br>Suministro de acceso de usuarios. <br>Gestión de derechos de acceso privilegiado. <br>Gestión de información de autenticación secreta de usuarios. <br>Revisión de los derechos de acceso de usuarios. <br>Retiro o ajuste de los derechos de acceso.',
+          'Asegurar el acceso de usuarios autorizados y evitar el acceso de usuarios no autorizados a sistemas y servicios: <ul class="lista-ul mt-3"><li><i  class="fas fa-angle-right"></i>Registro y cancelación del registro de usuarios.</li><li><i  class="fas fa-angle-right"></i>Suministro de acceso de usuarios.</li><li><i  class="fas fa-angle-right"></i>Gestión de derechos de acceso privilegiado.</li><li><i  class="fas fa-angle-right"></i>Gestión de información de autenticación secreta de usuarios.</li><li><i  class="fas fa-angle-right"></i>Revisión de los derechos de acceso de usuarios.</li><li><i  class="fas fa-angle-right"></i>Retiro o ajuste de los derechos de acceso.</li></ul>',
         imagen: require('@/assets/template/tema-2-14.png'),
       },
       {
         titulo: 'Responsabilidades de los usuarios',
         texto:
-          'Hacer que los usuarios rindan cuentas por la salvaguarda de su información de autenticación: <br><br> Uso de información de autenticación secreta.',
+          'Hacer que los usuarios rindan cuentas por la salvaguarda de su información de autenticación: <ul class="lista-ul mt-3"><li><i  class="fas fa-angle-right"></i>Uso de información de autenticación secreta.</li></ul>',
         imagen: require('@/assets/template/tema-2-15.png'),
       },
       {
         titulo: 'Control de acceso a sistemas y aplicaciones',
         texto:
-          'Evitar el acceso no autorizado a sistemas y aplicaciones: <br><br>Restricciones de acceso a la información. <br>Procedimiento de ingreso seguro. <br>Sistema de gestión de contraseñas. <br>Uso de los programas utilitarios privilegiados. <br>Control de acceso a códigos fuente de programas. <br>',
+          'Evitar el acceso no autorizado a sistemas y aplicaciones: <ul class="lista-ul mt-3"> <li><i  class="fas fa-angle-right"></i>Restricciones de acceso a la información.</li> <li><i  class="fas fa-angle-right"></i>Procedimiento de ingreso seguro.</li> <li><i  class="fas fa-angle-right"></i>Sistema de gestión de contraseñas.</li> <li><i  class="fas fa-angle-right"></i>Uso de los programas utilitarios privilegiados.</li> <li><i  class="fas fa-angle-right"></i>Control de acceso a códigos fuente de programas.</li> </ul>',
         imagen: require('@/assets/template/tema-2-16.png'),
       },
     ],

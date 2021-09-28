@@ -41,7 +41,7 @@
             figure.pt-4
               img(src="@/assets/template/tema-1-5.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .h3.mt-3 Identificar 
-            p.mt-3.mb-4 Fijar los recursos y tiempo necesario para su implementaciónz
+            p.mt-3.mb-4 Fijar los recursos y tiempo necesario para su implementación
     .titulo-segundo.mt-5
       #t_1_1.h2 1.1  Algunos conceptos y estándar orientador
     figure
@@ -97,7 +97,7 @@
             p.mt-4 En este ámbito y en relación con lo explicado hasta este punto, el control o los controles, son aquellas #[strong acciones que se deben implementar] bajo un proceso o procedimiento que garantice el alcance de los objetivos o metas de seguridad que haya fijado la organización o empresa.
     .titulo-segundo.mt-5
       #t_1_2.h2 1.2  Objetivos de control y su estructura
-    p.mt-5 A continuación, se presentan algunos conceptos importantes a tener en cuenta en el ejercicio de la determinación del plan de trabajo para la implementación de la ciberseguridad.
+    p.mt-5 La estructura de los objetivos de control tiene tres segmentos: el dominio, que abarca al objetivo y los controles; en segundo lugar, está el objetivo, que obedece a la intención o meta de la organización según en relación con el dominio y, por último, el control o controles, que se establecen a partir del objetivo que los implica y del dominio que los contiene.
     .row.mt-5
       .col-8.offset-2
         .titulo-sexto.color-acento-contenido.mt-4.mb-0
@@ -114,7 +114,7 @@
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
-                | A5 - Política de seguridad
+                | A5 - Política de seguridad.
       .col-6.col-lg-4.px-4
         .row.px-2.rounded-20.borde-naranja.bg-naranja-claro.text-center.h-100.zoom-in
           .col-12.px-1
@@ -125,7 +125,7 @@
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
-                | Política de seguridad de la información
+                | Política de seguridad de la información.
       .col-6.col-lg-4.px-4
         .row.px-2.rounded-20.borde-morado.bg-morado-claro.h-100.zoom-in
           .col-12.px-1
@@ -136,10 +136,10 @@
             ul.lista-ul.mt-3
               li 
                 i.fas.fa-angle-right
-                | Documento de política de seguridad de la información
+                | Documento de política de seguridad de la información.
               li.mb-5 
                 i.fas.fa-angle-right
-                | Revisión de la política de seguridad de la información
+                | Revisión de la política de seguridad de la información.
       figcaption.mt-4 Nota: Adaptada de ISO/IEC 27001:2013 – Anexo A
 
 </template>

@@ -15,6 +15,7 @@
       .col-12.col-lg-10
         .cajon.color-acento-contenido.p-4.mb-4
           p Le invitamos a hacer estudio de este componente formativo, activando todos los recursos didácticos que aquí se presentan, visitando los materiales complementarios que se le sugieren, analizando cada uno de los aspectos conceptuales y prácticos que se mostrarán y que darán línea al fortalecimiento de sus habilidades en la elaboración y aplicación de la estrategia de seguridad de información y ciberseguridad para su organización o empresa. 
+          p.mt-2 #[strong ¡Adelante!]
       .col-4.col-lg-2.offset-4.offset-lg-0
         figure
           img(src='@/assets/template/tema-0-2.svg', alt='Texto que describa la imagen').floating 
