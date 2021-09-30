@@ -27,7 +27,7 @@
     p.mt-5 Diríjase al recurso que aparece a continuación; allí encontrará información amplia e importantísima para el estudio del alcance de los controles de seguridad. Información que necesita para cumplir con los objetivos de este componente formativo. #[strong ¡Adelante!] 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/SCFfc4p7Z9w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-5
       .col-10.offset-1
         .tarjeta.color-primario.p-3.mb-5
