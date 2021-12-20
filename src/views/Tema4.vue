@@ -54,7 +54,7 @@
             .col-10.mt-3
               p Las métricas son instrumentos que permiten verificar el nivel de cumplimiento de un control de seguridad de acuerdo a lo esperado y propuesto en la estrategia de seguridad.
     .titulo-segundo.mt-5
-      #t_4_1.h2 4.1  Algunos conceptos y estándar orientador
+      #t_4_1.h2 4.1  La planificación y los objetivos
     .row.mt-5
       .col-12.col-lg-7.align-self-center
         .row

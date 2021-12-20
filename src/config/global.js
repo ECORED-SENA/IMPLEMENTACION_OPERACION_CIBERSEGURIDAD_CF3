@@ -153,28 +153,29 @@ export default {
   referencias: [
     {
       referencia:
-        'Instituto Internacional de Estudios en Seguridad Global (2020). Factor humano y ciberseguridad, un riesgo en crecimiento. INISEG.',
+        'Instituto Internacional de Estudios en Seguridad Global (2020). Factor humano y ciberseguridad, un riesgo en crecimiento. INISEG. ',
       link:
-        'https://www.iniseg.es/blog/ciberseguridad/factor-humano-y-ciberseguridad/',
+        ' https://www.iniseg.es/blog/ciberseguridad/factor-humano-y-ciberseguridad/',
     },
     {
       referencia:
-        'Instituto Nacional de Tecnologías de la Comunicación (2009). Implantación de un SGSI en la empresa.',
+        'Instituto Nacional de Tecnologías de la Comunicación (2009). Implantación de un SGSI en la empresa. ',
       link:
-        'https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SGSI.pdf',
-    },
-    {
-      referencia: 'ISO (2021). Dominios de seguridad y controles. (ISO 27000).',
-      link: 'https://www.iso27000.es/iso27002.html',
-    },
-    {
-      referencia: 'ISO (2021). Planificación en ISO. (ISO 27001).',
-      link: 'https://normaiso27001.es/planificacion-en-iso-27001/',
+        ' https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SGSI.pdf',
     },
     {
       referencia:
-        'Organización Internacional de Normalización (ISO 2021). FASE 6 Implementando un SGSI. (ISO 27001).',
-      link: 'https://normaiso27001.es/fase-6-implementando-un-sgsi/',
+        'ISO (2021). Dominios de seguridad y controles. (ISO 27000). ',
+      link: ' https://www.iso27000.es/iso27002.html',
+    },
+    {
+      referencia: 'ISO (2021). Planificación en ISO. (ISO 27001). ',
+      link: ' https://normaiso27001.es/planificacion-en-iso-27001/',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización (ISO 2021). FASE 6 Implementando un SGSI. (ISO 27001). ',
+      link: ' https://normaiso27001.es/fase-6-implementando-un-sgsi/',
     },
   ],
   glosario: [

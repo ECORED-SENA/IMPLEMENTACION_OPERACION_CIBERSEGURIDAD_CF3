@@ -38,7 +38,7 @@
               td.bg-blanco Revisión de las políticas para la seguridad de la información
     Separador
     .titulo-segundo.mt-5
-      #t_2_1.h2 2.1  Algunos conceptos y estándar orientador
+      #t_2_1.h2 2.1  Objetivos de control para la seguridad de la información
     .row.mt-5
       .col-12.col-lg-7
         .row

@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 	 Diseño de controles de seguridad
+      h1 	 Determinar el contexto
     .row.mt-5
       .col-2
         figure
